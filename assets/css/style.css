@@ -1,0 +1,94 @@
+/* 1. Estilos Base e Fundo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9; /* Fundo cinza claro suave */
+    color: #333;
+    display: flex; /* Centraliza o conteúdo principal */
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+#containerPrincipal {
+    background-color: #ffffff;
+    padding: 2em;
+    border-radius: 0.5em;
+    border: 2px solid #4a90e2;
+
+}
+
+h1 {
+    color: #4a90e2; /* Azul vibrante para o título */
+    margin-bottom: 30px;
+}
+
+/* 2. Estilos para o Campo de Entrada e Botão */
+#inputTarefa {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#inputTarefa:focus {
+    border-color: #4a90e2; /* Borda azul ao focar */
+    outline: none; /* Remove a borda padrão do navegador */
+}
+
+#btnAdicionar {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #50e3c2; /* Cor de adição (verde água) */
+    color: white;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#btnAdicionar:hover {
+    background-color: #3bc7a6; /* Cor ligeiramente mais escura ao passar o mouse */
+}
+
+/* 3. Estilos da Lista (UL) */
+#listaDeTarefas {
+    list-style: none; /* Remove os marcadores de lista padrão (bolinhas/números) */
+    padding: 0;
+    width: 450px; /* Largura da lista */
+    margin-top: 20px;
+}
+
+/* 4. Estilos de Cada Item da Lista (LI) */
+#listaDeTarefas li {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    display: flex;
+    justify-content: space-between; /* Empurra o botão de remover para a direita */
+    align-items: center;
+    font-size: 18px;
+    word-break: break-word; /* Garante que tarefas longas quebrem a linha */
+}
+
+/* 5. Estilos do Botão de Remover */
+#listaDeTarefas li button {
+    padding: 5px 10px;
+    border: 1px solid #ff6b6b; /* Borda vermelha */
+    border-radius: 4px;
+    background-color: transparent; /* Fundo transparente */
+    color: #ff6b6b; /* Texto vermelho */
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.3s;
+    flex-shrink: 0; /* Impede que o botão encolha */
+}
+
+#listaDeTarefas li button:hover {
+    background-color: #ff6b6b; /* Fundo vermelho */
+    color: white; /* Texto branco */
+}
