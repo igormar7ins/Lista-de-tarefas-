@@ -1,22 +1,30 @@
-# Lista de Tarefas
+# ✅ To-Do List App (Lista de Tarefas com LocalStorage)
 
-Uma aplicação web simples para gerenciar tarefas do dia a dia. Permite adicionar, visualizar e remover tarefas de forma fácil e intuitiva. Os dados são salvos localmente no navegador, garantindo que suas tarefas não sejam perdidas ao recarregar a página.
+## 🚀 Sobre o Projeto
 
-## Funcionalidades
+Este é um aplicativo web simples de **Lista de Tarefas (To-Do List)** desenvolvido puramente com tecnologias *front-end* (HTML, CSS e JavaScript). Ele permite aos usuários adicionar e remover tarefas dinamicamente.
 
-- **Adicionar Tarefas:** Campo de texto para digitar uma nova tarefa e um botão para adicioná-la à lista.
-- **Remover Tarefas:** Cada tarefa na lista tem um botão "Remover" para excluí-la.
-- **Persistência de Dados:** As tarefas são salvas no `localStorage` do navegador, mantendo a lista salva entre as sessões.
-- **Interface Limpa:** Design simples e focado na usabilidade.
+O grande diferencial deste projeto é a utilização do **`localStorage`** para garantir a **persistência dos dados**. Isso significa que as tarefas adicionadas não são perdidas mesmo que o usuário feche e reabra o navegador, proporcionando uma experiência contínua.
 
-## Tecnologias Utilizadas
+## ✨ Funcionalidades
 
-- **HTML5:** Estrutura da página.
-- **CSS3:** Estilização e design.
-- **JavaScript (ES6+):** Lógica da aplicação e manipulação do DOM.
+* **Adicionar Tarefa:** Insere um novo item na lista ao clicar no botão "Adicionar" ou pressionar a tecla "Enter".
+* **Remover Tarefa:** Permite excluir tarefas individualmente através de um botão de "Remover".
+* **Persistência de Dados:** Salva e carrega automaticamente a lista de tarefas no `localStorage` do navegador.
 
-## Como Usar
+## 🛠️ Tecnologias Utilizadas
 
-1.  Clone este repositório ou baixe os arquivos.
-2.  Abra o arquivo `index.html` em seu navegador de preferência.
-3.  Comece a adicionar e gerenciar suas tarefas!
+| Tecnologia | Finalidade Principal |
+| :--- | :--- |
+| **HTML5** | Estrutura semântica do formulário e da lista. |
+| **CSS3** | Estilização moderna e layout da interface. |
+| **JavaScript (ES6+)** | Lógica de cálculo, manipulação do DOM e gestão do `localStorage`. |
+
+## ⚙️ Instalação e Execução
+
+Como este é um projeto totalmente *front-end*, a execução é imediata e não requer servidor.
+
+### 1. Clone o Repositório
+
+```bash
+git clone [https://www.youtube.com/watch?v=351MZvGXpnY](https://www.youtube.com/watch?v=351MZvGXpnY)
